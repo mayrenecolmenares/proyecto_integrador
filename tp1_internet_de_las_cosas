@@ -1,0 +1,112 @@
+Instito Superior Politécnico de Córdoba
+12 de abril del 2024
+
+PROYECTO INTEGRADOR
+
+TRABAJO PRÁCTICO #1
+
+Desarrollo
+
+Parte 1: Investigación sobre IoT
+
+1. Definición y Aplicaciones del IoT: Investigar y redactar un breve ensayo (250-300 palabras) sobre qué es el Internet de las Cosas
+(IoT), incluyendo al menos tres aplicaciones prácticas en diferentes industrias.
+
+El Internet de las Cosas es un proceso que permite conectar elementos físicos cotidianos al Internet. Esto abarca desde objetos domésticos comunes, como focos de luz, hasta dispositivos médicos, prendas inteligentes y sistemas de ciudades inteligentes. Los dispositivos IoT se dividen en dos categorías: interruptores, que envían instrucciones a objetos y sensores, que recopilan datos y los envían a otros lugares.
+
+En otros términos, el IoT se refiere a sistemas de dispositivos físicos que reciben y transfieren datos a través de redes inalámbricas con poca intervención humana. La integración de dispositivos informáticos en objetos cotidianos permite que funcionen de manera más inteligente y conectada. Por ejemplo, un termostato inteligente puede recibir datos de la ubicación de un automóvil y ajustar la temperatura del hogar en consecuencia, incluso cuando el usuario no está presente.
+
+Entre las tres aplicaciones prácticas del IoT en diferentes industrias solicitadas tenemos:
+
+-Eficiencia Energética: El IoT permite medir el consumo de energía en tiempo real para detectar ineficiencias y resolverlas. Esto contribuye a un negocio más sostenible y con una menor huella de carbono.
+-Mantenimiento Optimizado: En la industria, el mantenimiento preventivo es crucial. El IoT ayuda a detectar fallos en la maquinaria y a optimizar los periodos improductivos o las averías graves.
+-Seguridad Industrial: Los sistemas IoT monitorean datos importantes relacionados con la seguridad informática y de los trabajadores. 
+
+
+2. Impacto del IoT: Reflexionar sobre cómo el IoT puede transformar la vida cotidiana y los negocios en el futuro. Identificar
+un problema actual que podría ser resuelto mediante la implementación de una solución basada en IoT.
+
+El Internet de las Cosas tiene un impacto significativo tanto en la vida cotidiana como en los negocios:
+
+-Impacto del IoT en la Vida Cotidiana: los dispositivos IoT, como termostatos inteligentes y asistentes virtuales, hacen que nuestras rutinas sean más cómodas y eficientes. Por ejemplo, ajustar la temperatura de tu hogar antes de llegar o pedir al asistente virtual que haga una lista de compras; los wearables y sensores de salud monitorean constantemente nuestros signos vitales, ayudando a prevenir enfermedades y mejorar nuestro bienestar; cámaras de seguridad y sistemas de alarma conectados nos brindan tranquilidad al vigilar nuestras casas y propiedades; IoT optimiza el tráfico, proporciona datos en tiempo real sobre el transporte público y facilita la navegación.
+
+-Impacto del IoT en los Negocios: el IoT permite monitorear y optimizar procesos industriales, reduciendo costos y aumentando la productividad; las empresas pueden predecir fallas en maquinaria y realizar mantenimiento antes de que ocurran averías costosas; los sensores IoT rastrean inventarios en tiempo real, evitando escasez o exceso de productos; los sensores en campos agrícolas monitorean humedad, temperatura y otros factores para maximizar la producción.
+
+Problema Actual Resuelto por IoT:
+
+Problema común en la industria manufacturera: ineficiencia en la cadena de suministro. Las empresas a menudo enfrentan retrasos, pérdida de productos y altos costos debido a problemas en la logística y el inventario. Aquí es donde el IoT puede intervenir:
+
+Solución IoT: Implementar sensores en almacenes y vehículos de transporte para rastrear la ubicación y el estado de los productos en tiempo real. Esto permitiría una gestión más eficiente de la cadena de suministro, reduciendo costos y mejorando la satisfacción del cliente.
+
+
+
+
+Parte 2: Introducción a Git y GitHub
+
+1. Creación de una Cuenta en GitHub: Si aún no tienes una, crea una cuenta en GitHub.
+
+Cuenta creada: https://github.com/mayrenecolmenares
+
+2. Tutorial de Git/GitHub: Completar un tutorial básico de Git y GitHub. https://classroom.github.com/a/iAxy1U65
+
+Realizado.
+
+3. Informe de Aprendizaje: Escribir un resumen de lo aprendido en el tutorial.
+
+Git y GitHub:
+Git es un sistema de control de versiones distribuido que permite rastrear cambios en el código y colaborar con otros.
+GitHub es la interfaz en línea que utiliza el poder de Git. Es ampliamente utilizado en todo el mundo para colaborar y mantener el historial de proyectos.
+
+Flujo de GitHub:
+Un flujo de trabajo liviano que facilita la experimentación y la colaboración sin riesgo de perder trabajo anterior.
+Repositorios son como carpetas de proyectos. Contienen archivos y su historial de revisiones. Puedes trabajar solo o invitar a otros a colaborar.
+Clonación permite crear una copia local de un repositorio remoto en tu computadora. Sincroniza cambios con Git.
+Comprometerse y empujar te permite agregar cambios locales al repositorio remoto. Otros pueden ver tu trabajo y colaborar.
+
+Términos clave:
+Repositorios: Donde ocurre el trabajo del proyecto.
+Clonación: Crear una copia local de un repositorio remoto.
+
+Con respecto a Git, es importante mencionar algunos de los comandos más importantes, tales son los siguientes:
+
+Configurar tu identidad:
+Configura tu nombre de autor y dirección de correo electrónico para los commits:
+git config --global user.name "Tu Nombre"
+git config --global user.email "tu@email.com"
+
+Crear un nuevo repositorio local:
+Inicializa un nuevo repositorio local:
+git init
+
+Clonar un repositorio existente:
+Crea una copia local de un repositorio remoto:
+git clone /ruta/al/repositorio
+
+Confirmar cambios:
+Confirma los cambios en tu repositorio local:
+git commit -m "Mensaje de confirmación"
+
+Enviar cambios al repositorio remoto:
+Envía los cambios al repositorio remoto (rama principal):
+git push origin master
+
+Ver el estado de los archivos:
+Muestra los archivos modificados y los que están en el área de preparación:
+git status
+
+
+
+
+Parte 3: Exploración de Herramientas de Desarrollo
+
+1. Instalación de Visual Studio Code (VsCode): Descargar e instalar VsCode desde su sitio oficial.
+
+Realizado.
+
+2. Configuración Inicial: Configurar VsCode instalando las extensiones recomendadas para el desarrollo de IoT, como
+PlatformIO para desarrollo en Arduino y Python.
+
+Realizado.
+
+3. Primer Proyecto: Crear un archivo simple de texto plano en VsCode y usar Git para hacer commit y push del archivo a un
+repositorio nuevo en tu cuenta de GitHub.
